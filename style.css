@@ -71,7 +71,7 @@ nav {
 
 .menu-btn {
   color: #272a31;
-  font-size: 4rem;
+  font-size: 2rem;
   cursor: pointer;
   border: 0;
   background-color: white;
@@ -79,12 +79,11 @@ nav {
   right: 0;
   margin-top: 15%;
   margin-right: 5%;
-  /* font-size: 20px; */
 }
 
 .menu-close {
   color: #272a31;
-  font-size: 4rem;
+  font-size: 2rem;
   cursor: pointer;
   border: 0;
   background-color: white;
@@ -92,7 +91,6 @@ nav {
   right: 0;
   margin-top: 2%;
   margin-right: 5%;
-  /* font-size: 20px; */
   visibility: hidden;
 }
 
@@ -116,8 +114,6 @@ nav {
 }
 
 .menu {
-  /* position: absolute; */
-  /* top: 0; */
   left: 0;
   background: #fff;
   width: 100%;
@@ -430,7 +426,7 @@ nav {
 .logo-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row: auto auto;
+  grid-template-rows: auto;
 }
 
 .sponsor-icon {
@@ -457,12 +453,13 @@ nav {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
   text-align: center;
+  margin-top: 10px;
 }
 
 .footer-logo {
   position: relative;
   width: 50%;
-  left: 12%;
+  left: 5%;
 }
 
 .language-navbar {
@@ -674,7 +671,7 @@ nav {
   .presentation {
     background-color: #f7f7f8;
     background-image: url("images/presentation-background.png");
-    display:inline-block;
+    display: inline-block;
     padding-left: 10%;
   }
 

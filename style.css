@@ -254,11 +254,13 @@ nav {
 .card {
   display: flex;
   flex-direction: row; 
-  
   height: fit-content;
   background: rgba(255, 255, 255, 0.3);
   padding: 8px;
   margin: 0;
+}
+.card:hover {
+  border: 2px solid white;
 }
 
 .card-title {
@@ -298,6 +300,10 @@ nav {
   padding-bottom: 4%;
   text-align: center;
   text-decoration: underline;
+}
+
+.footer-card:hover {
+  color: #ec5242;
 }
 
 /*Develop with Js*/

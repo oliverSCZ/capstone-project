@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Capstone project for Microverse. A webpage for a web design studio. Based on the original design by Cindy Shin on Behance. Check project here. Video introduction of project here.
+> Capstone project for Microverse. A webpage for a web design studio. Based on the original design by Cindy Shin on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) Check project here. Video introduction of project [here](https://www.loom.com/share/f4b294f791bc474f90562e8e31990271)
 
 ![screenshot](./app_screenshot.png)
 

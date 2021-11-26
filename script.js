@@ -1,4 +1,3 @@
-const projectUl = document.querySelector('.projects');
 const blueMenu = document.querySelector('.language-navbar');
 const menu = document.querySelector('.menu');
 const btn = document.querySelector('.menu-btn');

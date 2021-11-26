@@ -571,9 +571,9 @@ nav {
 
 .future {
   height: 300px;
-  width: 450px;
+  width: fit-content;
   background-color: #ec5242;
-  margin: 50px;
+  margin: 10% auto;
   color: white;
   font-family: Cocogoose-Italic, cursive;
   font-size: 50px;
@@ -969,7 +969,7 @@ nav {
 
   .logo-container {
     display: flex;
-    font-size: 6rem;
+    font-size: 4rem;
     justify-content: center;
     color: rgba(255, 255, 255, 0.3);
     gap: 60px;
@@ -1048,6 +1048,19 @@ nav {
     color: #ec5242;
     width: 125px;
     margin-top: 1%;
+  }
+
+  .future {
+    height: 300px;
+    width: 450px;
+    background-color: #ec5242;
+    margin: 50px;
+    color: white;
+    font-family: Cocogoose-Italic, cursive;
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
   }
 
   .future-img-container {

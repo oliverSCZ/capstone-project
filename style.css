@@ -243,7 +243,7 @@ nav {
 .card {
   display: flex;
   flex-direction: row;
-  height: fit-content;
+  height: auto;
   background: rgba(255, 255, 255, 0.3);
   padding: 8px;
   margin: 0;
@@ -430,7 +430,7 @@ nav {
 .logo-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row: 1fr;
+  grid-row: auto auto;
 }
 
 .sponsor-icon {
@@ -674,7 +674,7 @@ nav {
   .presentation {
     background-color: #f7f7f8;
     background-image: url("images/presentation-background.png");
-    display: inline-flexbox;
+    display:inline-block;
     padding-left: 10%;
   }
 
@@ -767,7 +767,7 @@ nav {
     border: 1px solid transparent;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
   .btn:hover {
@@ -1057,11 +1057,6 @@ nav {
     left: 30%;
   }
 
-  .footer-logo {
-    width: 5%;
-    left: 0;
-  }
-
   .footer-logo-white {
     position: relative;
     left: 30%;
@@ -1075,5 +1070,6 @@ nav {
 
   .footer-logo {
     width: 15%;
+    left: 0;
   }
 }

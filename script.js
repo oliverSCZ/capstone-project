@@ -29,7 +29,7 @@ menu.addEventListener('click', () => {
 const exhibSections = [
   {
     name: 'Jhon Smith',
-    image: './src/resources/king-tut.jpeg',
+    image: './images/person1.jpeg',
     brief: 'Team Lead',
     description:
       'If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals. ',
@@ -37,7 +37,7 @@ const exhibSections = [
   },
   {
     name: 'Brad Doe',
-    image: './src/resources/pyramids.jpeg',
+    image: './images/person2.jpeg',
     brief: 'Senior Ux',
     description:
       'If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.',
@@ -45,7 +45,7 @@ const exhibSections = [
   },
   {
     name: 'Anne Smith',
-    image: './src/resources/temple-of-isis.jpg',
+    image: './images/person3.jpg',
     brief: 'Deputy CTO',
     description:
       'If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.',
@@ -53,7 +53,7 @@ const exhibSections = [
   },
   {
     name: 'Joe Jons',
-    image: './src/resources/ancient-egyptian-hieroglyphics.jpg',
+    image: './images/person4.jpg',
     brief: 'Front-End',
     description:
       'If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.',
@@ -61,7 +61,7 @@ const exhibSections = [
   },
   {
     name: 'Jay Cox',
-    image: './src/resources/the-empire.jpeg',
+    image: './images/person5.jpeg',
     brief: 'Full Stack',
     description:
       'If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.',
@@ -69,7 +69,7 @@ const exhibSections = [
   },
   {
     name: 'Nina Spears',
-    image: './src/resources/afterlife.jpeg',
+    image: './images/person6.jpeg',
     brief: 'Software Developer',
     description:
       'If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.',
